@@ -8,9 +8,9 @@ A modern, production-quality quiz application built with HTML5, CSS3, and Vanill
 
 ## 🔗 Live Demo
 
-- **GitHub Repository**: [https://github.com/Shme-CS/js-quiz-app](https://github.com/Shme-CS/js-quiz-app)
-- **Live Demo (Vercel)**: [Deploy and add your Vercel URL here]
-- **GitHub Pages**: [https://shme-cs.github.io/js-quiz-app/](https://shme-cs.github.io/js-quiz-app/)
+- **🌐 Live App**: [https://shme-cs.github.io/js-quiz-app/](https://shme-cs.github.io/js-quiz-app/)
+- **📦 GitHub Repository**: [https://github.com/Shme-CS/js-quiz-app](https://github.com/Shme-CS/js-quiz-app)
+- **⚡ Vercel (Alternative)**: Deploy via [Vercel Dashboard](https://vercel.com/new/clone?repository-url=https://github.com/Shme-CS/js-quiz-app)
 
 ### 🚀 Quick Deploy
 
