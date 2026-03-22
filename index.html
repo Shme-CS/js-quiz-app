@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Interactive Quiz Application - Test your knowledge in JavaScript, HTML, CSS, and General Knowledge">
+    <title>Quiz Master - Interactive Quiz Application</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+            <span class="theme-icon">🌙</span>
+        </button>
+
+        <!-- Start Screen -->
+        <div class="screen active" id="startScreen">
+            <div class="quiz-card">
+                <h1 class="app-title">Quiz Master</h1>
+                <p class="app-subtitle">Test Your Knowledge</p>
+                
+                <div class="category-selection">
+                    <h2>Select Category</h2>
+                    <div class="category-grid">
+                        <button class="category-btn" data-category="javascript">
+                            <span class="category-icon">💻</span>
+                            <span class="category-name">JavaScript</span>
+                        </button>
+                        <button class="category-btn" data-category="html">
+                            <span class="category-icon">🌐</span>
+                            <span class="category-name">HTML</span>
+                        </button>
+                        <button class="category-btn" data-category="css">
+                            <span class="category-icon">🎨</span>
+                            <span class="category-name">CSS</span>
+                        </button>
+                        <button class="category-btn" data-category="general">
+                            <span class="category-icon">🧠</span>
+                            <span class="category-name">General Knowledge</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="difficulty-selection">
+                    <h2>Select Difficulty</h2>
+                    <div class="difficulty-buttons">
+                        <button class="difficulty-btn" data-difficulty="easy">Easy</button>
+                        <button class="difficulty-btn active" data-difficulty="medium">Medium</button>
+                        <button class="difficulty-btn" data-difficulty="hard">Hard</button>
+                    </div>
+                </div>
+
+                <div class="high-score">
+                    <p>High Score: <span id="highScoreDisplay">0</span></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Screen -->
+        <div class="screen" id="quizScreen">
+            <div class="quiz-card">
+                <div class="quiz-header">
+                    <div class="quiz-info">
+                        <span class="category-badge" id="currentCategory"></span>
+                        <span class="difficulty-badge" id="currentDifficulty"></span>
+                    </div>
+                    <div class="timer" id="timer">
+                        <span class="timer-icon">⏱️</span>
+                        <span class="timer-value" id="timerValue">30</span>
+                    </div>
+                </div>
+
+                <div class="progress-container">
+                    <div class="progress-info">
+                        <span id="questionNumber">1</span> / <span id="totalQuestions">10</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                </div>
+
+                <div class="question-container">
+                    <h2 class="question-text" id="questionText"></h2>
+                    <div class="answers-grid" id="answersGrid"></div>
+                </div>
+
+                <div class="quiz-footer">
+                    <div class="score-display">
+                        Score: <span id="currentScore">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Result Screen -->
+        <div class="screen" id="resultScreen">
+            <div class="quiz-card">
+                <div class="result-content">
+                    <div class="result-icon" id="resultIcon">🎉</div>
+                    <h1 class="result-title" id="resultTitle">Quiz Complete!</h1>
+                    <div class="result-score">
+                        <div class="score-circle">
+                            <span class="score-percentage" id="scorePercentage">0%</span>
+                        </div>
+                        <p class="score-text">
+                            You scored <span id="finalScore">0</span> out of <span id="finalTotal">10</span>
+                        </p>
+                    </div>
+                    <p class="result-message" id="resultMessage"></p>
+                    
+                    <div class="result-stats">
+                        <div class="stat-item">
+                            <span class="stat-label">Correct</span>
+                            <span class="stat-value correct" id="correctAnswers">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Wrong</span>
+                            <span class="stat-value wrong" id="wrongAnswers">0</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-label">Time</span>
+                            <span class="stat-value" id="totalTime">0s</span>
+                        </div>
+                    </div>
+
+                    <div class="result-actions">
+                        <button class="btn btn-primary" id="reviewBtn">Review Answers</button>
+                        <button class="btn btn-secondary" id="restartBtn">Try Again</button>
+                        <button class="btn btn-outline" id="homeBtn">Change Category</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Review Screen -->
+        <div class="screen" id="reviewScreen">
+            <div class="quiz-card review-card">
+                <h2 class="review-title">Answer Review</h2>
+                <div class="review-container" id="reviewContainer"></div>
+                <button class="btn btn-primary" id="backToResultBtn">Back to Results</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="data/questions.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
