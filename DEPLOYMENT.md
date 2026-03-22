@@ -35,7 +35,7 @@ git push -u origin main
    - Click Save
 
 3. Access your app at:
-   `https://yourusername.github.io/js-quiz-app/`
+   `https://Shme-CS.github.io/js-quiz-app/`
 
 ### Option 2: Netlify
 
@@ -105,7 +105,7 @@ Upload all files via FTP to your web server:
 
 In README.md, replace:
 ```markdown
-git clone https://github.com/yourusername/js-quiz-app.git
+git clone https://github.com/Shme-CS/js-quiz-app.git
 ```
 
 With your actual repository URL.

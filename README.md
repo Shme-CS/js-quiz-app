@@ -12,6 +12,13 @@ A modern, production-quality quiz application built with HTML5, CSS3, and Vanill
 - **Live Demo (Vercel)**: [Deploy and add your Vercel URL here]
 - **GitHub Pages**: [https://shme-cs.github.io/js-quiz-app/](https://shme-cs.github.io/js-quiz-app/)
 
+### 🚀 Quick Deploy
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/Shme-CS/js-quiz-app)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Shme-CS/js-quiz-app)
+
+**Or enable GitHub Pages**: Go to [Settings → Pages](https://github.com/Shme-CS/js-quiz-app/settings/pages) → Select branch `main` → Save
+
 ## 🎯 Overview
 
 Quiz Master is a fully-featured quiz application that demonstrates modern frontend development practices. Built without frameworks, it showcases clean JavaScript architecture, responsive design, and smooth user interactions.
