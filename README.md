@@ -6,6 +6,12 @@ A modern, production-quality quiz application built with HTML5, CSS3, and Vanill
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
 
+## 🔗 Live Demo
+
+- **GitHub Repository**: [https://github.com/Shme-CS/js-quiz-app](https://github.com/Shme-CS/js-quiz-app)
+- **Live Demo (Vercel)**: [Deploy and add your Vercel URL here]
+- **GitHub Pages**: [https://shme-cs.github.io/js-quiz-app/](https://shme-cs.github.io/js-quiz-app/)
+
 ## 🎯 Overview
 
 Quiz Master is a fully-featured quiz application that demonstrates modern frontend development practices. Built without frameworks, it showcases clean JavaScript architecture, responsive design, and smooth user interactions.
@@ -70,7 +76,7 @@ js-quiz-app/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/js-quiz-app.git
+git clone https://github.com/Shme-CS/js-quiz-app.git
 ```
 
 2. Navigate to the project directory:
@@ -252,7 +258,7 @@ This project is licensed under the MIT License - see below for details:
 ```
 MIT License
 
-Copyright (c) 2024 Quiz Master
+Copyright (c) 2026 Quiz Master
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -275,7 +281,7 @@ SOFTWARE.
 
 ## 👨‍💻 Author
 
-Created with ❤️ by [Your Name]
+Created with ❤️ by [Shmelis Solomon]
 
 ## 🙏 Acknowledgments
 
@@ -290,4 +296,9 @@ Created with ❤️ by [Your Name]
 
 📧 Questions? Open an issue or reach out!
 
-🔗 [Live Demo](#) | [Report Bug](#) | [Request Feature](#)
+🔗 **Links**:
+- [GitHub Repository](https://github.com/Shme-CS/js-quiz-app)
+- [Live Demo - Vercel](https://js-quiz-app-shme-cs.vercel.app) *(Update after deployment)*
+- [Live Demo - GitHub Pages](https://shme-cs.github.io/js-quiz-app/)
+- [Report Bug](https://github.com/Shme-CS/js-quiz-app/issues)
+- [Request Feature](https://github.com/Shme-CS/js-quiz-app/issues)
